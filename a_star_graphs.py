@@ -10,7 +10,7 @@ class Vertex():
 
 def a_star(vertices_map, edges_map, start, end):
 	path = []
-	total = None
+	total = 0
 	next_list = [start]
 
 	while len(next_list) > 0:
